@@ -9,7 +9,7 @@ func main() {
 		return float64(x * x)
 	}
 	g := func(x float64) bool {
-		return x < 10
+		return x < 10.0
 	}
 	h := func(x, acc float64) float64 {
 		return x + acc
